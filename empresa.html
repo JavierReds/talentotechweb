@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employe</title>
+    <style>
+        #div-style{
+            background-color: cadetblue;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            color: chartreuse;
+        }
+        h1{
+            color: white;
+        }
+        h2{
+            color: white;
+            text-align: left;
+        }
+        ul{
+            color: white;
+            text-align: left;
+        }
+        p{
+            color: white;
+            text-align: center;
+        }
+        dl{
+            color: white;
+            align-items: center;
+        }
+        label{
+            color: white;
+        }
+    </style>
+</head>
+<body bgcolor="black">  
+<div>
+    <!--logo-->
+    <center><img src="D:\Universidad\TalenTechBogota\DesarrolloWeb\Project\imagenes\LogoSmsg.jpg" alt=""></center>
+    <h1 align="center">SAMSUNG</h1>
+    <p align="center">
+        Se especializa en la producción de una amplia variedad de productos electrónicos de consumo e industriales, 
+        <br>incluidos electrodomésticos, dispositivos de medios digitales, semiconductores, chips de memoria y sistemas integrados.
+    </p>
+</div>
+<div>
+    <h2>Nuestros productos y Servicios</h2>
+    <ul>
+        <li>Equipos de Sonido</li>
+        <li>Televisores</li>
+        <li>Dispositivos M&oacute;viles</li>
+        <li>Neveras</li>
+        <li>Memorias RAM</li>
+        <li><a href="https://www.samsung.com/co/">Visita nuestra p&aacute;gina Oficial</a></li>
+    </ul>
+</div>
+<div>
+    <h2>Datos de contacto</h2>
+    <dl>
+        <dd><strong>Colombia - Bogotá D.C.</strong></dd>
+        <dd><strong>Dirección:</strong> 7 # 113 - 43 Of 607 (Torre SAMSUNG)</dd>
+        <dd><strong>Whatsapp:</strong>+573138698800</dd>
+
+    </dl>
+</div>
+<div>
+    <iframe source src="https://www.youtube.com/embed/Mrm66RNda68" frameborder="0"></iframe>
+</div>
+<!--Creación de formulario-->
+<div id="div-style">
+<form action="" method="get">
+<fieldset>
+    <legend style="color: white;">Por favor ingrese los siguientes datos</legend><br>    
+    <label for="">Dígite su nombre completo</label>
+    <input type="text" name="nombre" id="" required placeholder="Nombre completo"><br>
+    <label for="">Digite su número de Cédula</label>
+    <input type="number" requiered placeholder="Documento de identidad" name="documento"><br>
+    <label for="">Ingrese su ciudad natal</label>
+    <select name="ciudad" id="">
+        <option value="">Bogotá D.C.</option>
+        <option value="">Medellin.</option>
+        <option value="">Cali</option>
+        <option value="">Popayan</option>
+        <option value="">Cartagena</option>
+        <option value="">santa Marta</option>
+    </select><br>
+    <label for="">Ingrese teléfono de contacto: </label>
+    <input type="tel" requiered placeholder="Teléfono" name="telefono">
+    <label for="">Digite dirección de residencia</label>
+    <input type="text" required placeholder="Dirección" name="direccion"><br>
+    <label for="">Digite dirección de correo electrónico</label>
+    <input type="mail" required placeholder="e-mail" name="correo"><br>
+    <!--Documentos Anexos-->
+    <label for="">Cargar Documentos Anexos</label>
+    <input type="file" required name="archivo">
+    <label for="">Seleccione su fecha de nacimiento:</label>
+    <input type="date" requiered name="fechanacimiento">
+    <table border="1">
+        <tr>
+            <th>Mes</th>
+            <th>Venta</th>
+        </tr>
+        <tr>
+            <td>Enero</td>
+            <td>$498.000.000</td>
+        </tr>
+        <tr>
+            <td>Febrero</td>
+            <td>$320.000.000</td>
+        </tr>
+        <tr>
+            <td>Marzo</td>
+            <td>$240.000.000</td>
+        </tr>
+        <tr>
+            <td>Abril</td>
+            <td>$280.000.000</td>
+        </tr>
+        <tr>
+            <td>Mayo</td>
+            <td>$450.000.000</td>
+        </tr>
+        <tr>
+            <td>Junio</td>
+            <td>$420.000.000</td>
+        </tr>
+        <tr>
+            <td>Julio</td>
+            <td>$650.000.000</td>
+        </tr>
+        <tr>
+            <td>Agosto</td>
+            <td>$500.000.000</td>
+        </tr>
+        <tr>
+            <td>Septiembre</td>
+            <td>$380.000.000</td>
+        </tr>
+        <tr>
+            <td>Octubre</td>
+            <td>$400.000.000</td>
+        </tr>
+        <tr>
+            <td>Noviembre</td>
+            <td>$430.000.000</td>
+        </tr>
+        <tr>
+            <td>Diciembre</td>
+            <td>$750.000.000</td>
+        </tr>
+    </table>
+    <button>Enviar</button>
+</fieldset>
+</form>
+</div>
+</body>
+</html>

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="1">
+        <tr>
+            <th>Nombre</th>
+            <th>Correo</th>
+            <th>Ciudad</th>
+            <th>Edad</th>
+            <th>Profesión</th>
+        </tr>
+        <tr>
+            <td>Ximena</td>
+            <td>ximena@correo.com.co</td>
+            <td>Bucaramanga</td>
+            <td align="center">32</td>
+            <td>Psic&oacute;loga</td>
+        </tr>
+        <tr>
+            <td>Javier</td>
+            <td>javier@correo.com.co</td>
+            <td>Bogotá</td>
+            <td align="center">38</td>
+            <td>Ingeniero de Sistemas</td>
+        </tr>
+        <tr>
+            <td>Santiago</td>
+            <td>santiago@correo.com.co</td>
+            <td>Cali</td>
+            <td align="center">23</td>
+            <td>Diseñador Gráfico</td>
+        </tr>
+        <tr>
+            <td>Lizeth</td>
+            <td>lizeth@correo.com.co</td>
+            <td>Medellin</td>
+            <td align="center">35</td>
+            <td>Administradora de Empresas</td>
+        </tr>
+        <tr>
+            <td>David</td>
+            <td>davi@correo.com.co</td>
+            <td>Cartagena</td>
+            <td align="center">29</td>
+            <td>Cocinero</td>
+        </tr>
+        <tr>
+            <td>Juan Pablo</td>
+            <td>juanpablo@correo.com.co</td>
+            <td>Leticia</td>
+            <td align="center" >50</td>
+            <td>Todero</td>
+        </tr>
+        <tr>
+            <td>Julian</td>
+            <td>julian@correo.com.co</td>
+            <td>Chóco</td>
+            <td align="center">26</td>
+            <td>Comunicador Social</td>
+        </tr>
+        <tr>
+            <td>Kira</td>
+            <td>kira@correo.com.co</td>
+            <td>Bogotá</td>
+            <td align="center">14</td>
+            <td>Cánino Antinarcotico</td>
+        </tr>
+    </table><br>
+    <h2>Información Requerida</h2>
+
+    <!--Formulario HTML-->
+    <form action="" method="get">
+        <!--Campo de tipo texto-->
+        <label for="">Nombre</label>
+        <input type="text" required placeholder="Nombre" name="nombre"><br>
+        <!--Campo de tipo fecha y hora -->
+        <label for="">Fecha de Nacimiento</label>
+        <input type="date" name="" id=""><br>
+        <!--Campo de tipo numérico-->
+        <label for="">Edad</label>
+        <input type="number" name="" id="" required placeholder="99"><br>
+        <!--Campo de tipo email-->
+        <label for="">Correo</label>
+        <input type="email" name="" id="" required placeholder="correo@micorreo.com"><br>
+        <!--Campo de tipo Hora-->
+        <label for=""><strong>Hora de Ingreso:</strong></label>
+        <input type="time">
+        <!--Campo de tipo Mes-->
+        <label for=""><strong>Mes de Ingreso:</strong></label>
+        <input type="month"><br>
+        <!--Campo tipo Color-->
+        <label for="">Color de Uniforme</label>
+        <input type="color"><br>
+        <!-- Radio Buttom-->
+        <label for="">Genero</label>
+        <input type="radio" name="genero" value="Femenino">
+        <label for="">Femenino</label>
+        <input type="radio" name="genero" value="Masculino">
+        <label for="">Masculino</label><br>
+        <!--Campo tipo CheckButtom-->
+        <label for="">Días Laborados</label>
+        <input type="checkbox" name="dias" value="Lunes">
+        <label for="">Lunes</label>
+        <input type="checkbox" name="dias" value="Martes">
+        <label for="">Martes</label>
+        <input type="checkbox" name="dias" value="Miércoles">
+        <label for="">Miércoles</label>
+        <input type="checkbox" name="dias" value="Jueves">
+        <label for="">Jueves</label>
+        <input type="checkbox" name="dias" value="Viernes">
+        <label for="">Viernes</label>
+        <input type="checkbox" name="dias" value="Sábado">
+        <label for="">Sábado</label>
+        <input type="checkbox" name="dias" value="Domingo">
+        <label for="">Domingo</label><br>
+        <!-- Campo tipo URL -->
+        <label for="">Perfil LinkedIN</label>
+        <input type="url" required placeholder="URL de tu Perfil en LinkedIN"><br>
+        <!--Campo de tipo Archivo-->
+        <label for="">Cargar Hoja de Vida</label>
+        <input type="file" name="" id=""><br>
+        <!--Campo Seleccionador-->
+        <label for="">Seleccione una ciudad</label>
+        <select name="" id="">
+            <option value="">Bogotá</option>
+            <option value="">Bucaramanga</option>
+            <option value="">Barranquilla</option>
+            <option value="">Cartagena</option>
+            <option value="">San Andrés</option>
+        </select><br><br>
+        <!--Campo tipo botón-->
+        <label for="">Verifique la información antes enviar</label><br>
+        <button>Enviar</button><br><br>
+
+        <fieldset>
+            <legend>Información General</legend>
+            <!-- <select name="tipodocumento" id="">
+                <option value="">CC</option>
+                <option value="">TI</option>
+                <option value="">Pasaporte</option>
+                <option value="">Cédula de Extranjería</option>
+            </select><br>-->
+            <label for="">Descripción del Perfil</label><br>
+            <textarea name="" id="" cols="100" rows="10"></textarea><br>
+            <!--DataList-->
+            <label for="">Tipo de Documento:</label>
+            <input list="documentos" id="documento">
+
+        </fieldset>
+
+    </form>
+</body>
+</html>
